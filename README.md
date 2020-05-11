@@ -8,11 +8,19 @@ Our project is comprised of four major parts:
 - Feeding the output of the forecasting model as an input to another model that determines the sustainability of electrical infrastructure given increased adoption of EVs.
 - Creating a map that displays which areas of the geographic area is most susceptible to strain on their electrical infrastructure due to EVs.
 
-## Demo
+## Solution Demo
+
+For our solution, we created an interactive map that highlights our findings on infrastructure preparedness by ZIP code for electric vehicle energy consumption in Washington State. Users can hover over areas of the map to learn more about each ZIP code. This map details how many additional EVs each ZIP code’s electric infrastructure can support at a certain year, for all years between 2021 and 2050. On the map, green ZIP codes have a good amount of remaining energy capacity to support many more electric vehicles, while the yellow ZIP codes have less capacity, and red ZIP codes have the least.
 
 <img width="925" alt="Screen Shot 2020-04-27 at 8 48 36 PM" src="https://user-images.githubusercontent.com/21212020/81616786-00262280-9399-11ea-9448-77020e1f0c60.png">
 
+Figure 1: Map of Washington State displaying remaining number of EVs each ZIP code can support.
 
+Each ZIP code also has its own marker, which is hidden behind a marker cluster, so that the map does not get too cluttered. Clicking on the cluster allows the user to zoom into parts of the map. Also for each marker, the tooltip provides information about the ZIP code number, city and county, and clicking it gives the user information about the population and how many EVs its energy infrastructure can support.
+
+<img width="1203" alt="Screen Shot 2020-04-27 at 8 51 33 PM" src="https://user-images.githubusercontent.com/21212020/81616885-3368b180-9399-11ea-8011-9a406d45ddb0.png">
+
+Figure 2: Tooltips and extra information providing ZIP codes, city and county, and population statistics.
 
 
 ## Running the Code
