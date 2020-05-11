@@ -22,7 +22,12 @@ Each ZIP code also has its own marker, which is hidden behind a marker cluster, 
 
 #### Figure 2: Tooltips and extra information providing ZIP codes, city and county, and population statistics.
 
-The full maps are included in the `markered-maps` folder in this repository. Each map is an HTML file that can be viewed by opening it in a web browser, preferably Google Chrome or Firefox.
+## Accessing the Interactive Maps
+The full maps are included in the `markered-maps` folder in this GitHub repository. Each map is an HTML file that can be viewed by opening it in a web browser, preferably Google Chrome or Firefox. In order to access the interactive map, follow these steps:
+
+1. Clone the repository.
+2. Change into the `markered-maps` repository.
+3. Open one of the three sample maps with a web browser, and the map will be displayed on the browser.
 
 ## Running the Code
 The code is all localized to a Jupyter notebook, so to run the code, you must either:
@@ -31,3 +36,5 @@ The code is all localized to a Jupyter notebook, so to run the code, you must ei
 2. Download a Python 3 Anaconda distribution through this site: https://www.anaconda.com/products/individual
 
 Note that the code will not run correctly withouth the datasets being linked to certain paths, but since these datasets were quite large they are not included in this repository. The datasets can be pulled however from online public sources.
+
+#### It is not recommended to run the Jupyter notebook code but rather to access the interactive maps as outlined in the above section.
