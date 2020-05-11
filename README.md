@@ -14,17 +14,20 @@ For our solution, we created an interactive map that highlights our findings on 
 
 <img width="925" alt="Screen Shot 2020-04-27 at 8 48 36 PM" src="https://user-images.githubusercontent.com/21212020/81616786-00262280-9399-11ea-9448-77020e1f0c60.png">
 
-Figure 1: Map of Washington State displaying remaining number of EVs each ZIP code can support.
+#### Figure 1: Map of Washington State displaying remaining number of EVs each ZIP code can support.
 
 Each ZIP code also has its own marker, which is hidden behind a marker cluster, so that the map does not get too cluttered. Clicking on the cluster allows the user to zoom into parts of the map. Also for each marker, the tooltip provides information about the ZIP code number, city and county, and clicking it gives the user information about the population and how many EVs its energy infrastructure can support.
 
 <img width="1203" alt="Screen Shot 2020-04-27 at 8 51 33 PM" src="https://user-images.githubusercontent.com/21212020/81616885-3368b180-9399-11ea-8011-9a406d45ddb0.png">
 
-Figure 2: Tooltips and extra information providing ZIP codes, city and county, and population statistics.
+#### Figure 2: Tooltips and extra information providing ZIP codes, city and county, and population statistics.
 
+The full maps are included in the `markered-maps` folder in this repository. Each map is an HTML file that can be viewed by opening it in a web browser, preferably Google Chrome or Firefox.
 
 ## Running the Code
 The code is all localized to a Jupyter notebook, so to run the code, you must either:
 
 1. Install the Jupyter notebook through `pip` or `conda` by following the instructions here: https://jupyter.org/install
 2. Download a Python 3 Anaconda distribution through this site: https://www.anaconda.com/products/individual
+
+Note that the code will not run correctly withouth the datasets being linked to certain paths, but since these datasets were quite large they are not included in this repository. The datasets can be pulled however from online public sources.
