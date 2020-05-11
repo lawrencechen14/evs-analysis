@@ -30,11 +30,13 @@ The full maps are included in the `markered-maps` folder in this GitHub reposito
 3. Open one of the three sample maps with a web browser, and the map will be displayed on the browser.
 
 ## Running the Code
+
+#### It is not recommended to run the Jupyter notebook code but rather to access the interactive maps as outlined in the above section.
 The code is all localized to a Jupyter notebook, so to run the code, you must either:
 
 1. Install the Jupyter notebook through `pip` or `conda` by following the instructions here: https://jupyter.org/install
 2. Download a Python 3 Anaconda distribution through this site: https://www.anaconda.com/products/individual
 
-Note that the code will not run correctly withouth the datasets being linked to certain paths, but since these datasets were quite large they are not included in this repository. The datasets can be pulled however from online public sources.
+*Note that the code will not run correctly without the datasets being linked to certain paths, but since these datasets were quite large they are not included in this repository. The datasets can be pulled however from online public sources.*
 
-#### It is not recommended to run the Jupyter notebook code but rather to access the interactive maps as outlined in the above section.
+
