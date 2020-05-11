@@ -8,6 +8,13 @@ Our project is comprised of four major parts:
 - Feeding the output of the forecasting model as an input to another model that determines the sustainability of electrical infrastructure given increased adoption of EVs.
 - Creating a map that displays which areas of the geographic area is most susceptible to strain on their electrical infrastructure due to EVs.
 
+## Demo
+
+<img width="925" alt="Screen Shot 2020-04-27 at 8 48 36 PM" src="https://user-images.githubusercontent.com/21212020/81616786-00262280-9399-11ea-9448-77020e1f0c60.png">
+
+
+
+
 ## Running the Code
 The code is all localized to a Jupyter notebook, so to run the code, you must either:
 
