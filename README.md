@@ -33,7 +33,7 @@ The main packages that we used for our project was the `sklearn` Linear Regressi
 In order to view the solution demo, you need to clone or download the repository and navigate to the appropriate directory. The full maps are included in the `markered-maps` folder in this GitHub repository. Each map is an HTML file that can be viewed by opening it in a web browser, preferably Google Chrome or Firefox. In order to access the interactive map, follow these steps:
 
 1. Clone the repository.
-2. Change into the `markered-maps` repository.
+2. Change into the `markered-maps` directory.
 3. Open one of the three sample maps with a web browser, and the map will be displayed on the browser.
 
 ## Running the Code
