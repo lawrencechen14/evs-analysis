@@ -22,8 +22,15 @@ Each ZIP code also has its own marker, which is hidden behind a marker cluster, 
 
 #### Figure 2: Tooltips and extra information providing ZIP codes, city and county, and population statistics.
 
+### Packages Used
+The main packages that we used for our project was the `sklearn` Linear Regression model, `statsmodels` ARIMA model, and the `folium` map visualization library. These libraries are linked below:
+
+- Sci-kit Learn Linear Regression Model: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
+- Statsmodels ARIMA Model: https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_model.ARIMA.html
+- Python Folium Visualization: https://python-visualization.github.io/folium/
+
 ## Accessing the Interactive Maps
-The full maps are included in the `markered-maps` folder in this GitHub repository. Each map is an HTML file that can be viewed by opening it in a web browser, preferably Google Chrome or Firefox. In order to access the interactive map, follow these steps:
+In order to view the solution demo, you need to clone or download the repository and navigate to the appropriate directory. The full maps are included in the `markered-maps` folder in this GitHub repository. Each map is an HTML file that can be viewed by opening it in a web browser, preferably Google Chrome or Firefox. In order to access the interactive map, follow these steps:
 
 1. Clone the repository.
 2. Change into the `markered-maps` repository.
@@ -31,7 +38,7 @@ The full maps are included in the `markered-maps` folder in this GitHub reposito
 
 ## Running the Code
 
-#### It is not recommended to run the Jupyter notebook code but rather to access the interactive maps as outlined in the above section.
+#### For demoing purposes, it is not recommended to run the Jupyter notebook code but rather to access the interactive maps as outlined in the above section.
 The code is all localized to a Jupyter notebook, so to run the code, you must either:
 
 1. Install the Jupyter notebook through `pip` or `conda` by following the instructions here: https://jupyter.org/install
